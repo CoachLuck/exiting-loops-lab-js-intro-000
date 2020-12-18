@@ -1,7 +1,6 @@
 function breakOut(arr, cVal, sVal) {
   console.log("start")
   for (let i = 0; i < arr.size; i++) {
-    console.log("Start loops")
     if (arr[i] === sVal) {
       console.log("Found stop value")
       break;
