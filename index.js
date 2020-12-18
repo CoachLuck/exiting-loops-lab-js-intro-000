@@ -1,7 +1,7 @@
 function breakOut(arr, cVal, sVal) {
   arr.forEach(elem => {
     if (elem === sVal) {
-      break;
+      break
     }
 
     elem = cVal
