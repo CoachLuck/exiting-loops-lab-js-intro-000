@@ -1,10 +1,11 @@
 function breakOut(arr, cVal, sVal) {
+  idx = 0;
   arr.forEach(elem => {
     if (elem === sVal) {
       return arr;
     }
 
-    elem = cVal
+    arr[idx] = cVal
   })
 
   return arr;
@@ -15,5 +16,5 @@ function keepGoing(arr, cVal, sVal) {
 }
 
 function findBy(arr, findFn) {
-  
+
 }
