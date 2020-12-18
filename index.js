@@ -26,7 +26,3 @@ function keepGoing(arr, cVal, sVal) {
 function findBy(arr, findFn) {
   return arr.find(findFn)
 }
-
-
-const c = Math.floor(Math.random() * 100)
-console.log(findBy([1, 1, 1, 1, c, 1, 2], n => n === c))
