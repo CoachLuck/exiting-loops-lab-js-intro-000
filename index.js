@@ -36,4 +36,6 @@ function findBy(arr, findFn) {
   return null;
 }
 
+
+const c = Math.floor(Math.random() * 100)
 findBy([1, 1, 1, 1, c, 1, 2], n => n === c)
