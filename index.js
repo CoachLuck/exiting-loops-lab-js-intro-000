@@ -18,7 +18,7 @@ function keepGoing(arr, cVal, sVal) {
       continue;
     }
 
-    arr[i] = cVal
+    arr[i] = cVal;
   }
 
   return arr;
