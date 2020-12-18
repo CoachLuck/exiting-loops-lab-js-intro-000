@@ -14,4 +14,6 @@ function keepGoing(arr, cVal, sVal) {
 
 }
 
-function findBy(arr, findFn)
+function findBy(arr, findFn) {
+  
+}
