@@ -34,13 +34,6 @@ function findBy(arr, findFn) {
   }
 
   return null;
-  arr.forEach(elem => {
-    if (typeof elem === typeof findFn) {
-      return elem;
-    }
-  })
-
-  return null;
 }
 
 breakOut([1, 1, 1, 1, 2, 1, 1], 24, 2)
