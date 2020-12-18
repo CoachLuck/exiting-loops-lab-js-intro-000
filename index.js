@@ -25,5 +25,9 @@ function keepGoing(arr, cVal, sVal) {
 }
 
 function findBy(arr, findFn) {
-
+  arr.forEach(elem => {
+    if (elem === findFn) {
+      return elem;
+    }
+  })
 }
