@@ -27,6 +27,7 @@ function findBy(arr, findFn) {
   for (var i = 0; i < arr.length; i++) {
     var elem = arr[i];
     if (elem === findFn) {
+      console.log("found")
       return elem;
     }
   }
