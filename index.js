@@ -6,6 +6,8 @@ function breakOut(arr, cVal, sVal) {
 
     elem = cVal
   })
+
+  return arr;
 }
 
 function keepGoing(arr, cVal, sVal) {
