@@ -1,5 +1,5 @@
 function breakOut(arr, cVal, sVal) {
-  idx = 0;
+  var idx = 0;
   arr.forEach(elem => {
     if (elem === sVal) {
       return arr;
