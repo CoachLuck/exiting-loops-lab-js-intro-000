@@ -9,7 +9,7 @@ function breakOut(arr, cVal, sVal) {
 }
 
 function keepGoing(arr, cVal, sVal) {
-  
+
 }
 
 function findBy(arr, findFn)
