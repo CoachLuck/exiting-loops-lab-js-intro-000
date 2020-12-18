@@ -29,7 +29,7 @@ function findBy(arr, findFn) {
       return elem;
     }
     if (elem === findFn) {
-      return elem
+      return elem;
     }
   }
 
