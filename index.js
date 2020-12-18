@@ -5,7 +5,9 @@ function breakOut(arr, cVal, sVal) {
       break;
     }
 
+    console.log(`Changing ${arr[i]} to ${cVal}`)
     arr[i] = cVal;
+    console.log(`Changed to ${arr[i]}`)
   }
 
   return arr;
