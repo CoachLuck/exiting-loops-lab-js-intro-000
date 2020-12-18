@@ -35,4 +35,4 @@ function findBy(arr, findFn) {
   return null;
 }
 
-breakOut([1, 1, 1, 1, 2, 1, 1], c, 2)
+breakOut([1, 1, 1, 1, 2, 1, 1], 24, 2)
