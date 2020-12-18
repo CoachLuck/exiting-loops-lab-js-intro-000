@@ -1,6 +1,7 @@
 function breakOut(arr, cVal, sVal) {
   console.log("start")
   for (var i = 0; i < arr.size; i++) {
+    console.log(`Loop ${i}`)
     if (arr[i] === sVal) {
       console.log("Found stop value")
       break;
@@ -10,6 +11,7 @@ function breakOut(arr, cVal, sVal) {
     arr[i] = cVal;
     console.log(`Changed to ${arr[i]}`)
   }
+
 
   return arr;
 }
