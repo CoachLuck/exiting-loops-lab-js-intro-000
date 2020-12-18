@@ -31,4 +31,5 @@ function findBy(arr, findFn) {
 
 
 const c = Math.floor(Math.random() * 100)
+console.log(n => n === c)
 console.log(findBy([1, 1, 1, 1, c, 1, 2], n => n === c))
