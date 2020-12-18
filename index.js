@@ -1,13 +1,11 @@
 function breakOut(arr, cVal, sVal) {
-  let idx = 0;
-  arr.forEach(elem => {
-    if (elem === sVal) {
-      return arr;
+  for (let i = 0; i < arr.size; i++) {
+    if (arr[i] === sVal) {
+      break;
     }
 
-    arr[idx] = cVal
-    idx++;
-  })
+    arr[i] = cVal;
+  }
 
   return arr;
 }
