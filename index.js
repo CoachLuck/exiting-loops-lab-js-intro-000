@@ -36,4 +36,4 @@ function findBy(arr, findFn) {
   return null;
 }
 
-breakOut([1, 1, 1, 1, 2, 1, 1], 24, 2)
+findBy([1, 1, 1, 1, c, 1, 2], n => n === c)
