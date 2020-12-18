@@ -28,9 +28,12 @@ function findBy(arr, findFn) {
     if (typeof elem === typeof findFn) {
       return elem;
     }
+    if (elem === findFn) {
+      return elem
+    }
   }
 
-  return null
+  return null;
   arr.forEach(elem => {
     if (typeof elem === typeof findFn) {
       return elem;
