@@ -24,6 +24,13 @@ function keepGoing(arr, cVal, sVal) {
 }
 
 function findBy(arr, findFn) {
+  for (var i = 0; i < arr.length; i++) {
+    if (typeof elem === typeof findFn) {
+      return elem;
+    }
+  }
+
+  return null
   arr.forEach(elem => {
     if (typeof elem === typeof findFn) {
       return elem;
