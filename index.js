@@ -24,7 +24,8 @@ function keepGoing(arr, cVal, sVal) {
 }
 
 function findBy(arr, findFn) {
-  var c = findFn();
+  var c = findFn()
+  console.log(c);
   return arr.find(e => e === c)
 }
 
