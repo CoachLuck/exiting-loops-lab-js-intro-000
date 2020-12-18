@@ -17,7 +17,7 @@ function breakOut(arr, cVal, sVal) {
 }
 
 function keepGoing(arr, cVal, sVal) {
-  for (let i = 0; i < arr.size; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] === sVal) {
       continue;
     }
