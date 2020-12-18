@@ -6,6 +6,7 @@ function breakOut(arr, cVal, sVal) {
     }
 
     arr[idx] = cVal
+    idx++;
   })
 
   return arr;
